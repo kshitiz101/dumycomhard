@@ -1,0 +1,85 @@
+body{
+    background-color: #fdfdfd;
+}
+
+.navbar-brand{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-style: bold;
+}
+
+.nav-link{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    font-style: thin;
+    font-size: 12px;
+}
+
+.nav-item{
+    position: relative;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.active{
+    margin-left: 70px;
+}
+
+.numeric-box{
+    display: inline-block;
+    /* position: relative; */
+    width: 30px;
+    height:25px;
+    /* bottom: 35px;
+    left: 200px; */
+    background-color: #00C4FF;
+}
+
+.numeric-box-text{
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+    margin-left: 2px;
+    width: 85%;
+}
+
+.browse-topics{
+    background-color: #fdfdfd;
+    border-radius: 0%;
+}
+
+.card-deck{
+    /* padding-top: 20px; */
+    margin: auto;
+    width: 90%;
+}
+
+.card{
+    height: fit-content;
+    border-radius: 10%;
+    background-color: #fff;
+}
+
+.card-header{
+    margin: auto;
+    width: 100%;
+    background-color: #fdfdfd;
+    border-radius: 0%;
+    padding-bottom: 0px;
+}
+
+.card-main-heading{
+    display: inline-block;
+    width: 75%;
+}
+
+.card-img-top{
+    display: inline-block;
+    padding-bottom: 2em;
+}
+
+.card-header-tabs{
+    margin: auto;
+    width: 50%;
+    padding-bottom: 0px;
+}
