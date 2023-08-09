@@ -2,6 +2,54 @@ body{
     background-color: #fdfdfd;
 }
 
+#discover-heading{
+    color: white;
+}
+
+#header-web{
+    padding-right: 0px;
+}
+
+#header-finance{
+    padding-left: 0px;
+}
+
+#finance-share{
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+#learn-btn{
+    display: block;
+    width: fit-content;
+    margin-bottom: 172px;
+}
+
+#header-cards{
+    position: relative;
+    margin-left: 120px;
+    margin-top: -100px;
+}
+
+#finance-numeric-box{
+    background-color: #1660cf;
+}
+
+#cards-container{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#works-learn-more{
+    padding-bottom: 100px;
+}
+
+.hr{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
 .navbar-brand{
     font-family: 'Nunito', sans-serif;
     font-weight: 700;
@@ -25,14 +73,89 @@ body{
     margin-left: 70px;
 }
 
-.numeric-box{
+.main-header{
+    margin: 0;
+    padding: 0;
+}
+
+.body-header-1{
+    padding: 10px;
+    padding-bottom: 100px;
+}
+
+.body-header-2{
+    padding: 10px;
+    padding-bottom: 100px;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+.body-header-text{
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    width: fit-content;
+    display: block;
+}
+
+.input-group{
+    margin: auto;
+    width: 55%;
+    border: none;
+    border-radius: 25px;
+    padding: 5px;
+    background-color: white;
+}
+
+.fa-magnifying-glass{
     display: inline-block;
-    /* position: relative; */
+    position: relative;
+    margin-top: 11.5px;
+    margin-left: 15px;
+}
+
+.form-control{
+    border: none;
+    border-radius: 25px;
+}
+
+.btn-outline-primary{
+    color: #82cfc7;
+    border-color: #82cfc7;
+    border-radius: 25px;
+    margin-left: 20px;
+}
+
+.search-btn{
+    border: none;
+    border-radius: 25px;
+    background-color: #82cfc7;
+    color: white;
+    height: fit-content;
+    margin-right: 5px;
+}
+
+.social-btn-container{
+    border: none;
+    display: inline;
+    margin-left: 20px;
+}
+
+.social-btn{
+    border-radius: 100%;
+}
+
+.fa-bookmark{
+    float: right;
+    margin-top: 15px;
+}
+
+.numeric-box{
+    float: right;
     width: 30px;
     height:25px;
-    /* bottom: 35px;
-    left: 200px; */
     background-color: #00C4FF;
+    border-radius: 10%;
 }
 
 .numeric-box-text{
@@ -44,19 +167,30 @@ body{
 }
 
 .browse-topics{
+    margin-top: 70px;
     background-color: #fdfdfd;
     border-radius: 0%;
+}
+
+.col-sm-4{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.card-body{
+    margin: auto;
 }
 
 .card-deck{
     /* padding-top: 20px; */
     margin: auto;
-    width: 90%;
+    /* width: 90%; */
 }
 
 .card{
+    border: none;
     height: fit-content;
-    border-radius: 10%;
+    border-radius: 5%;
     background-color: #fff;
 }
 
@@ -82,4 +216,77 @@ body{
     margin: auto;
     width: 50%;
     padding-bottom: 0px;
+}
+
+.finance-card{
+    border: none;
+    background-image:linear-gradient(to top right,rgba(19,85,123,0.9),rgba(129,206,198,0.9)), url('https://raw.githubusercontent.com/kshitiz101/dumycomhard/fc1566956bfec26d185c74c860b3e2cc21b78eac/images/businesswoman-using-tablet-analysis.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    color: white;
+}
+
+.works{
+    border: none;
+    background-image: linear-gradient(to top right,rgba(19,85,123,0.9),rgba(129,206,198,0.9)),url('https://raw.githubusercontent.com/kshitiz101/dumycomhard/fc1566956bfec26d185c74c860b3e2cc21b78eac/images/colleagues-working-cozy-office-medium-shot.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    color: white;
+}
+
+.works-logo{
+    border-radius: 100%;
+    background-color: #82cfc7;
+    width: 70px;
+    height: 70px;
+    margin-right: 50px;
+}
+
+.works-logo-child{
+    border-radius: 100%;
+    border: solid;
+    border-color: #fff;
+    background-color: #82cfc7;
+    border-width: 3px;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.work-icon{
+    position: relative;
+    margin: 0px;
+    height: 60px;
+    width: 60px;
+}
+
+#work-search{
+    padding-left: 18px;
+    padding-top: 20px;
+}
+
+#work-bookmark{
+    padding-left: 26px;
+    padding-top: 20px;
+}
+
+#work-book{
+    padding-left: 18px;
+    padding-top: 20px;
+}
+
+.media{
+    padding: 50px;
+    margin: auto;
+    width: 75%;
+}
+
+.faq{
+    background-color: #fff;
+    
 }

@@ -19,54 +19,123 @@
 </head>
 
 <body>
-    <!-- NAVBAR -->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light "
-        style="background-image: linear-gradient(to right,#569daa,#7cc9d4);">
-        <a class="navbar-brand" href="#">
-            <i class="fa-solid fa-copy"></i>
-            Topic
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">BROWSE TOPICS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">HOW IT WORKS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">FAQS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">CONTACT</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        PAGES
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </li>
-            </ul>
+    <!-- header -->
+    <div class="container-fluid main-header" style="background-image: linear-gradient(to top right,#13557b,#81cec6);">
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" href="#">
+                <i class="fa-solid fa-copy"></i>
+                Topic
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">BROWSE TOPICS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">HOW IT WORKS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">FAQS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">CONTACT</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            PAGES
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <a class="nav-link text-white" href="#">
+                <i class="fa-regular fa-user"></i>
+            </a>
+        </nav>
+        <hr class="hr">
+        <!-- body header -->
+        <div class="container-fluid body-header-1">
+            <div class="container-md body-header-text">
+                <h1 id="discover-heading">Discover.Learn.Enjoy</h1>
+                <h5>platform for creatives around the world</h5>
+            </div>
+            <div class="input-group mb-3">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" class="form-control" placeholder="Design, Code, Marketing, Finance ..."
+                    aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <button class="btn btn-outline-secondary search-btn" type="button">Search</button>
+            </div>
         </div>
-        <a class="nav-link text-white" href="#">
-            <i class="fa-regular fa-user"></i>
-        </a>
-    </nav>
+    </div>
+    <div class="container-fluid body-header-2" style="background-color: #82cfc7;">
+        <div class="card-body" id="header-cards">
+            <div class="card-deck">
+                <div class="row">
+                    <div class="col-sm-5" id="header-web">
+                        <div class="card shadow-lg p-3 mb-5 bg-white">
+                            <div class="card-body">
+                                <div class="card-main-heading">
+                                    <h5 class="card-title">Website Design</h5>
+                                </div>
+                                <div class="numeric-box">
+                                    <p class="card-text numeric-box-text">14</p>
+                                </div>
+                                <p class="card-text">When you search for free CSS templates, you will notice that
+                                    TemplateMo is one of the best websites</p>
+                            </div>
+                            <img class="card-img-top" src="images\undraw_Remote_design_team_re_urdx.png"
+                                alt="Card image cap">
+                        </div>
+                    </div>
+                    <div class="col-sm-6" id="header-finance">
+                        <div class="card finance-card shadow-lg p-3 mb-5 bg-white">
+                            <div class="card-body">
+                                <div class="card-main-heading">
+                                    <h5 class="card-title">Finance</h5>
+                                </div>
+                                <div class="numeric-box" id="finance-numeric-box">
+                                    <p class="card-text numeric-box-text">25</p>
+                                </div>
+                                <p class="card-text">Topic Listing Template includes homepage, listing page, detail page
+                                    and contact page. You can feel free to edit and adapt for your CMS requirements.</p>
+                                <button class="btn btn-outline-secondary search-btn" id="learn-btn" type="button">Learn
+                                    More</button>
+                                <p class="card-text" id="finance-share">Share:</p>
+                                <div class="social-btn-container">
+                                    <button class="btn btn-outline-secondary search-btn social-btn" type="button">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </button>
+                                    <button class="btn btn-outline-secondary search-btn social-btn" type="button">
+                                        <i class="fa-brands fa-facebook"></i>
+                                    </button>
+                                    <button class="btn btn-outline-secondary search-btn social-btn" type="button">
+                                        <i class="fa-brands fa-pinterest"></i>
+                                    </button>
+                                    <i class="fa-regular fa-bookmark"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- CARDS for Browse Topics -->
-    <div class="browse-topics card text-center">
-        <h3>Browse Topics</h3>
+    <div class="browse-topics">
+        <h3 class="text-center">Browse Topics</h3>
         <div class="card-header">
             <ul class="nav nav-tabs card-header-tabs">
                 <li class="nav-item">
@@ -86,11 +155,11 @@
                 </li>
             </ul>
         </div>
-        <div class="card-body">
+        <div class="card-body" id="cards-container">
             <div class="card-deck">
                 <div class="row">
                     <div class="col-sm-4">
-                        <div class="card">
+                        <div class="card shadow p-3 mb-5 bg-white">
                             <div class="card-body">
                                 <div class="card-main-heading">
                                     <h5 class="card-title">Website Design</h5>
@@ -105,7 +174,7 @@
                         </div>
                     </div>
                     <div class="col-sm-4">
-                        <div class="card">
+                        <div class="card shadow p-3 mb-5 bg-white">
                             <div class="card-body">
                                 <div class="card-main-heading">
                                     <h5 class="card-title">Graphic</h5>
@@ -120,7 +189,7 @@
                         </div>
                     </div>
                     <div class="col-sm-4">
-                        <div class="card">
+                        <div class="card shadow p-3 mb-5 bg-white">
                             <div class="card-body">
                                 <div class="card-main-heading">
                                     <h5 class="card-title">Logo Design</h5>
@@ -138,7 +207,51 @@
             </div>
         </div>
     </div>
-
+    <!-- How does it work? -->
+    <div class="container-fluid works">
+        <h2 class="text-center" style="padding-top: 100px;">How does it Work?</h2>
+        <ul class="list-unstyled">
+            <li class="media row">
+                <div class="works-logo">
+                    <div class="works-logo-child">
+                        <i class="fa-solid fa-magnifying-glass work-icon" id="work-search"></i>
+                    </div>
+                </div>
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Search your favourite topic</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+              </div>
+            </li>
+            <li class="media my-4">
+                <div class="works-logo">
+                    <div class="works-logo-child">
+                        <i class="fa-regular fa-bookmark work-icon" id="work-bookmark"></i>
+                    </div>
+                </div>
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Bookmark and Keep it for yourself</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+              </div>
+            </li>
+            <li class="media">
+                <div class="works-logo">
+                    <div class="works-logo-child">
+                        <i class="fa-solid fa-book-open work-icon" id="work-book"></i>
+                    </div>
+                </div>
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Read & Enjoy</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+              </div>
+            </li>
+          </ul>
+          <p class="text-center" id="works-learn-more">Want to learn more?
+              <button class="btn btn-outline-primary" type="button">Check out Youtube</button>
+          </p>
+    </div>
+    <div class="container-fluid faq">
+        
+    </div>
     <script src="" async defer></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
