@@ -1,104 +1,171 @@
-body{
+body {
     background-color: #fdfdfd;
 }
 
-#discover-heading{
+#discover-heading {
     color: white;
 }
 
-#header-web{
+#header-web {
     padding-right: 0px;
 }
 
-#header-finance{
+#header-finance {
     padding-left: 0px;
 }
 
-#finance-share{
+#finance-share {
     display: inline-block;
     margin-bottom: 30px;
 }
 
-#learn-btn{
+#learn-btn {
     display: block;
     width: fit-content;
     margin-bottom: 172px;
 }
 
-#header-cards{
+#header-cards {
     position: relative;
     margin-left: 120px;
     margin-top: -100px;
 }
 
-#finance-numeric-box{
+#finance-numeric-box {
     background-color: #1660cf;
 }
 
-#cards-container{
+#cards-container {
     margin-left: 50px;
     margin-right: 50px;
 }
 
-#works-learn-more{
+#works-learn-more {
     padding-bottom: 100px;
 }
 
-.hr{
-    margin: 0;
-    padding: 0;
-    background-color: #fff;
+.vl{
+    border-left: 6px solid #82cfc7;
+    margin-left: 32px;
+    height: 160px;
+    position: absolute;
 }
 
-.navbar-brand{
+h1 {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 40px;
+}
+
+h5 {
     font-family: 'Nunito', sans-serif;
     font-weight: 700;
     font-style: bold;
 }
 
-.nav-link{
-    font-family: 'Kanit', sans-serif;
-    font-weight: 400;
-    font-style: thin;
+p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    color: #a09c99;
+}
+
+.sub-heading {
+    color: #12546e;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-style: bold;
+}
+
+.hr {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    height: 0.00005px;
+}
+
+.navbar-brand {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    width: fit-content;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 25px;
+}
+
+.nav-link {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    font-style: bold;
     font-size: 12px;
 }
 
-.nav-item{
+.nav-item {
     position: relative;
     margin-left: 5px;
     margin-right: 5px;
 }
 
-.active{
+.profile-btn {
+    border: none;
+    background-color: white;
+}
+
+.active {
     margin-left: 70px;
 }
 
-.main-header{
+.browse-nav{
+    margin: auto;
+    width: fit-content;
+}
+
+.browse-nav-link{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: #78888c;
+}
+
+.browse-nav-link:hover{
+    color: #12546e;
+}
+
+.main-header {
     margin: 0;
     padding: 0;
 }
 
-.body-header-1{
+.body-header-1 {
     padding: 10px;
     padding-bottom: 100px;
 }
 
-.body-header-2{
+.body-header-2 {
     padding: 10px;
     padding-bottom: 100px;
     border-bottom-left-radius: 10%;
     border-bottom-right-radius: 10%;
 }
 
-.body-header-text{
+.body-header-text {
     margin: auto;
     padding-top: 50px;
     padding-bottom: 30px;
     width: fit-content;
+    text-align: center;
     display: block;
 }
 
-.input-group{
+.input-group {
     margin: auto;
     width: 55%;
     border: none;
@@ -107,26 +174,30 @@ body{
     background-color: white;
 }
 
-.fa-magnifying-glass{
+.fa-magnifying-glass {
     display: inline-block;
     position: relative;
     margin-top: 11.5px;
     margin-left: 15px;
 }
 
-.form-control{
+.form-control {
     border: none;
     border-radius: 25px;
 }
 
-.btn-outline-primary{
+.btn-outline-primary {
     color: #82cfc7;
     border-color: #82cfc7;
     border-radius: 25px;
     margin-left: 20px;
 }
 
-.search-btn{
+.btn-outline-secondary:hover {
+    background-color: #00C4FF;
+}
+
+.search-btn {
     border: none;
     border-radius: 25px;
     background-color: #82cfc7;
@@ -135,30 +206,30 @@ body{
     margin-right: 5px;
 }
 
-.social-btn-container{
+.social-btn-container {
     border: none;
     display: inline;
     margin-left: 20px;
 }
 
-.social-btn{
+.social-btn {
     border-radius: 100%;
 }
 
-.fa-bookmark{
+.fa-bookmark {
     float: right;
     margin-top: 15px;
 }
 
-.numeric-box{
+.numeric-box {
     float: right;
     width: 30px;
-    height:25px;
+    height: 25px;
     background-color: #00C4FF;
     border-radius: 10%;
 }
 
-.numeric-box-text{
+.numeric-box-text {
     display: inline-block;
     color: white;
     font-size: 15px;
@@ -166,35 +237,35 @@ body{
     width: 85%;
 }
 
-.browse-topics{
+.browse-topics {
     margin-top: 70px;
     background-color: #fdfdfd;
     border-radius: 0%;
 }
 
-.col-sm-4{
+.col-sm-4 {
     padding-left: 0px;
     padding-right: 0px;
 }
 
-.card-body{
+.card-body {
     margin: auto;
 }
 
-.card-deck{
+.card-deck {
     /* padding-top: 20px; */
     margin: auto;
     /* width: 90%; */
 }
 
-.card{
+.card {
     border: none;
     height: fit-content;
     border-radius: 5%;
     background-color: #fff;
 }
 
-.card-header{
+.card-header {
     margin: auto;
     width: 100%;
     background-color: #fdfdfd;
@@ -202,25 +273,25 @@ body{
     padding-bottom: 0px;
 }
 
-.card-main-heading{
+.card-main-heading {
     display: inline-block;
     width: 75%;
 }
 
-.card-img-top{
+.card-img-top {
     display: inline-block;
     padding-bottom: 2em;
 }
 
-.card-header-tabs{
+.card-header-tabs {
     margin: auto;
     width: 50%;
     padding-bottom: 0px;
 }
 
-.finance-card{
+.finance-card {
     border: none;
-    background-image:linear-gradient(to top right,rgba(19,85,123,0.9),rgba(129,206,198,0.9)), url('https://raw.githubusercontent.com/kshitiz101/dumycomhard/fc1566956bfec26d185c74c860b3e2cc21b78eac/images/businesswoman-using-tablet-analysis.jpg');
+    background-image: linear-gradient(to top right, rgba(19, 85, 123, 0.9), rgba(129, 206, 198, 0.9)), url('https://raw.githubusercontent.com/kshitiz101/dumycomhard/fc1566956bfec26d185c74c860b3e2cc21b78eac/images/businesswoman-using-tablet-analysis.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -228,9 +299,9 @@ body{
     color: white;
 }
 
-.works{
+.works {
     border: none;
-    background-image: linear-gradient(to top right,rgba(19,85,123,0.9),rgba(129,206,198,0.9)),url('https://raw.githubusercontent.com/kshitiz101/dumycomhard/fc1566956bfec26d185c74c860b3e2cc21b78eac/images/colleagues-working-cozy-office-medium-shot.jpg');
+    background-image: linear-gradient(to top right, rgba(19, 85, 123, 0.9), rgba(129, 206, 198, 0.9)), url('https://raw.githubusercontent.com/kshitiz101/dumycomhard/fc1566956bfec26d185c74c860b3e2cc21b78eac/images/colleagues-working-cozy-office-medium-shot.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -238,7 +309,7 @@ body{
     color: white;
 }
 
-.works-logo{
+.works-logo {
     border-radius: 100%;
     background-color: #82cfc7;
     width: 70px;
@@ -246,7 +317,7 @@ body{
     margin-right: 50px;
 }
 
-.works-logo-child{
+.works-logo-child {
     border-radius: 100%;
     border: solid;
     border-color: #fff;
@@ -258,35 +329,139 @@ body{
     margin-top: 5px;
 }
 
-.work-icon{
+.work-icon {
     position: relative;
     margin: 0px;
     height: 60px;
     width: 60px;
 }
 
-#work-search{
+#work-search {
     padding-left: 18px;
     padding-top: 20px;
 }
 
-#work-bookmark{
+#work-bookmark {
     padding-left: 26px;
     padding-top: 20px;
 }
 
-#work-book{
+#work-book {
     padding-left: 18px;
     padding-top: 20px;
 }
 
-.media{
+.media {
     padding: 50px;
     margin: auto;
     width: 75%;
 }
 
-.faq{
+.faq {
+    margin-top: 100px;
     background-color: #fff;
-    
+    margin-bottom: 100px;
+}
+
+.faq-image {
+    display: block;
+    width: 80%;
+}
+
+.collapsable-faq{
+    margin-top: 6.5%;
+}
+
+.rounded-pill-btn {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    color: #174c6f;
+    background-color: #e6f0fd;
+    border: none;
+    padding: 10px 20px;
+    text-align: left;
+    text-decoration: none;
+    display: inline;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    width: 100%;
+}
+
+#accordion {
+    margin-top: 10%;
+}
+
+.get-in-touch {
+    background-color: #f0f7fd;
+    padding-top: 100px;
+}
+
+.map-container {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 50px;
+    width: 50%;
+    margin-bottom: 100px;
+}
+
+#comhard-map {
+    position: relative;
+    margin-left: 10%;
+    border: none;
+    border-radius: 10%;
+    width: 80%;
+    height: 250px;
+}
+
+.office-address {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.contact-info {
+    width: fit-content;
+}
+
+.text-dark {
+    color: #82cfc7 !important;
+}
+
+.hr-small {
+    margin-bottom: 20px;
+}
+
+.footer-link {
+    padding-bottom: 20px;
+}
+
+footer {
+    background-color: inherit;
+    margin-top: 50px;
+}
+
+.language-btn {
+    border-radius: 10%;
+}
+
+.triangle {
+    /* position: relative; */
+    margin-top: -100px;
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 100px 100px;
+    border-color: transparent transparent #82cfc7 transparent;
+    float: right;
+}
+
+.hr-green {
+    background-color: #82cfc7;
+    height: 10px;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    margin-top: 0px;
 }
